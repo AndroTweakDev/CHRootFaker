@@ -1,0 +1,14 @@
+#!/usr/bin/make -f
+
+DEB_HOST_MULTIARCH := $(shell dpkg-architecture -qDEB_HOST_MULTIARCH)
+
+%:
+	dh $@ --parallel
+
+override_dh_auto_configure:
+	dh_auto_configure -- --enable-dependency-tracking --with-libpath=no
+
+override_dh_auto_install:
+	dh_auto_install
+	echo /usr/lib/$(DEB_HOST_MULTIARCH)/fakechroot > debian/libfakechroot/etc/ld.so.conf.d/fakechroot-$(DEB_HOST_MULTIARCH).conf
+

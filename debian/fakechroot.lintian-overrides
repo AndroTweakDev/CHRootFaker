@@ -1,0 +1,2 @@
+binary-without-manpage usr/bin/ldd.fakechroot
+binary-without-manpage usr/sbin/chroot.fakechroot

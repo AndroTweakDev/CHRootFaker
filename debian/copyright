@@ -1,0 +1,111 @@
+Format: http://dep.debian.net/deps/dep5/
+Upstream-Name: fakechroot
+Upstream-Contact: Piotr Roszatycki <dexter@debian.org>
+Source: http://github.com/fakechroot/fakechroot/downloads
+
+Files: *
+Copyright: 2003, 2005, 2007-2011 Piotr Roszatycki <dexter@debian.org>
+           2007 Mark Eichin <eichin@metacarta.com>
+           2006, 2007 Alexander Shishkin <virtuoso@slind.org>
+           2006, 2007 Lionel Tricon <lionel.tricon@free.fr>
+License: LGPL
+
+Files: execl.c
+Copyright: 1991,92,94,97,98,99,2002,2005 Free Software Foundation, Inc.
+License: LGPL
+
+Files: execle.c
+Copyright: 1991,97,98,99,2002,2005 Free Software Foundation, Inc.
+License: LGPL
+
+Files: execlp.c
+Copyright: 1991,93,96,97,98,99,2002,2005 Free Software Foundation, Inc.
+License: LGPL
+
+Files: execvp.c
+Copyright: 1991,92, 1995-99, 2002, 2004, 2005, 2007, 2009 Free Software
+           Foundation, Inc.
+License: LGPL
+
+Files: fts.c
+Copyright: 1990, 1993, 1994 The Regents of the University of California.
+License: BSD-3-clause
+
+Files: ftw.c ftw64.c
+Copyright: 1996-2004, 2006-2008, 2010 Free Software Foundation, Inc.
+           This file is part of the GNU C Library.
+           Contributed by Ulrich Drepper <drepper@cygnus.com>, 1996.
+License: LGPL
+
+Files: __opendir2.c
+Copyright: 1983, 1993 The Regents of the University of California.
+           2000 Daniel Eischen.
+License: BSD-3-clause
+
+Files: popen.c
+Copyright: 1988, 1993 The Regents of the University of California.
+License: BSD-3-clause
+
+Files: rawmemchr.c
+Copyright: 2002 Manuel Novoa III
+           2000-2005 Erik Andersen <andersen@uclibc.org>
+License: LGPL
+
+Files: realpath.c
+Copyright: 1996-2010 Free Software Foundation, Inc.
+License: LGPL
+
+Files: rpl_lstat.c
+Copyright: 1997-2006, 2008-2010 Free Software Foundation, Inc.
+License: LGPL
+
+Files: stpcpy.c
+Copyright: 1992, 1995, 1997-1998, 2006, 2009-2010 Free Software
+           Foundation, Inc.
+License: LGPL
+
+Files: strchrnul.c
+Copyright: 2003, 2007, 2008, 2009, 2010 Free Software Foundation, Inc.
+License: LGPL
+
+Files: debian/*
+Copyright: 2003-2010, Piotr Roszatycki <dexter@debian.org>
+License: GPL-2+
+
+License: BSD-3-clause
+ Copyright (c) The Regents of the University of California.
+ All rights reserved.
+ .
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+ 3. Neither the name of the University nor the names of its contributors
+    may be used to endorse or promote products derived from this software
+    without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE REGENTS AND CONTRIBUTORS ``AS IS'' AND
+ ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ ARE DISCLAIMED.  IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE LIABLE
+ FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+ DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+ OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+ LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+ OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+ SUCH DAMAGE.
+
+License: GPL-2+
+ On Debian systems, the full text of the GNU General Public
+ License can be found in the file
+ `/usr/share/common-licenses/GPL'.
+
+License: LGPL
+ On Debian systems, the full text of the GNU Lesser General Public
+ License can be found in the file
+ `/usr/share/common-licenses/LGPL'.
